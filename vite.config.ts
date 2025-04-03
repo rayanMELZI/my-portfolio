@@ -6,7 +6,7 @@ const autoprefixer = require("autoprefixer");
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "rayanmelzi.github.io/",
+  base: "/portfolio",
   // build: {
   //   rollupOptions: {
   //     input: '/public/index.html'
