@@ -23,30 +23,30 @@ import ibnRochdApp from "./assets/ibnRochdApp.png";
 
 const webProjects = [
   {
-    title: "Web Application made for SONATRACH",
+    title: "Employee Training Feedback System for SONATRACH",
     description:
-      "A Centralized management web application for tracking and evaluating training programs.",
+      "A web application designed to automate and centralize post-training evaluations for SONATRACH employees. Featuring role-based access, admin dashboards, and response analytics.",
     image: sonatrachApp,
     // github: "https://github.com/yourusername/ecommerce",
   },
   {
-    title: "ITC-Talks 4 Website",
+    title: "ITC-Talks 4 Event Website",
     description:
-      "An event website made for the scientific club ITCommunity for their next event ITC-Talks 4 to present the details of the event and made the registration process easy. it is my final work in a mini hackathon named the Web-UIUX Challenge (2023) organized by the scientific club ITCommunity.",
+      "An event platform created in ITCommunity's 2023 Dev-UIUX hackathon, streamlining registration and showcasing event details.",
     image: itcTalks4,
     github: "https://github.com/rayanMELZI/ITC-Web_dev-UI-UX-Challenge",
   },
   {
     title: "ITClinic Hospital Website",
     description:
-      "A modern website for the imahinary ITClinic hostipal to show its services and made it easy for patinets to contact them. it is my final work in a hackathon named ITChallenge (2022 version) organized by the scientific club ITCommunity.",
+      "A modern website for a fictional healthcare provider, designed to highlight services and simplify patient communication (final project for ITChallenge 2022).",
     image: ITClinic,
     github: "https://github.com/rayanMELZI/ITClinic",
   },
   {
-    title: "Life Managment Tool (unfinished)",
+    title: "Life Management Tool (In Progress)",
     description:
-      "Modern task management application with real-time updates and intuitive simple UI. it uses the eisenhower matrix principal and it can be separated in diffrent life domains. this application is created for personal use and for learning purposes",
+      "A task management app inspired by the Eisenhower Matrix, featuring real-time updates and domain-based categorization for personal productivity.",
     image: LMT,
     github: "https://github.com/rayanMELZI/Life-Management-Tool-Full-App",
     live: "https://life-management-tool.onrender.com/",
@@ -55,16 +55,16 @@ const webProjects = [
 
 const designProjects = [
   {
-    title: "Web Application made for SONATRACH",
+    title: "SONATRACH Web App Redesign",
     description:
       "A Centralized management web application for tracking and evaluating training programs.",
     image: sonatrachApp,
     figma: "https://figma.com/file/yourdesignsystem",
   },
   {
-    title: "Mobile App for the private university IBN ROCHD SUP",
+    title: "Ibn Rochd University Mobile App",
     description:
-      "Complete UX case study for the mobile application created for Ibn Rochd Higher Institute of Science and Technology.",
+      "A complete UX case study for a private university’s mobile platform, focusing on enhancing student engagement and usability.",
     image: ibnRochdApp,
     figma: "https://figma.com/file/yourfinanceapp",
   },
@@ -128,16 +128,16 @@ function App() {
           >
             <div className="px-4 py-2 space-y-1">
               <a
+                href="#"
+                className="block py-2 text-zinc-600 hover:text-indigo-600"
+              >
+                About
+              </a>
+              <a
                 href="#work"
                 className="block py-2 text-zinc-600 hover:text-indigo-600"
               >
                 Work
-              </a>
-              <a
-                href="#about"
-                className="block py-2 text-zinc-600 hover:text-indigo-600"
-              >
-                About
               </a>
               <a
                 href="#contact"
@@ -229,9 +229,8 @@ function App() {
               <Code2 className="w-12 h-12 text-indigo-500 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Development</h3>
               <p className="text-zinc-600">
-                Experienced in building modern web applications using React,
-                TypeScript, and Node.js. Strong focus on performance and clean
-                code.
+                Experienced in building modern web applications using React and
+                TypeScript. Strong focus on performance and clean code.
               </p>
             </div>
             <div className="p-8 rounded-xl bg-gradient-to-br from-pink-50 to-purple-50 border border-pink-100">
@@ -370,9 +369,9 @@ function App() {
               Let's Work Together
             </h2>
             <p className="text-zinc-300 mb-8 max-w-2xl mx-auto">
-              I'm always interested in hearing about new projects and
+              I’m always interested in hearing about new projects and
               opportunities. Whether you have a question or just want to say hi,
-              I'll try my best to get back to you!
+              feel free to reach out!
             </p>
             <div className="flex justify-center space-x-6">
               <a
