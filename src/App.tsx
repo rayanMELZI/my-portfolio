@@ -366,7 +366,9 @@ function App() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-8">Let's Work Together</h2>
+            <h2 className="text-3xl text-zinc-300 font-bold mb-8">
+              Let's Work Together
+            </h2>
             <p className="text-zinc-300 mb-8 max-w-2xl mx-auto">
               I'm always interested in hearing about new projects and
               opportunities. Whether you have a question or just want to say hi,
