@@ -19,14 +19,14 @@ const webProjects = [
     title: "Web Application made for SONATRACH",
     description:
       "A Centralized management web application for tracking and evaluating training programs.",
-    image: "sonatrachApp.png",
+    image: "/assets/sonatrachApp.png",
     // github: "https://github.com/yourusername/ecommerce",
   },
   {
     title: "ITClinic Hospital Website",
     description:
       "A modern website for the imahinary ITClinic hostipal to show its services and made it easy for patinets to contact them. it is my final work in a hackathon named ITChallenge (2022 version) organized by the scientific club ITCommunity.",
-    image: "ITClinic.png",
+    image: "/assets/ITClinic.png",
     github: "https://github.com/yourusername/task-app",
   },
   {
@@ -41,7 +41,7 @@ const webProjects = [
     title: "Life Managment Tool (unfinished)",
     description:
       "Modern task management application with real-time updates and intuitive simple UI. it uses the eisenhower matrix principal and it can be separated in diffrent life domains. this application is created for personal use and for learning purposes",
-    image: "LMT.png",
+    image: "/assets/LMT.png",
     github: "https://github.com/yourusername/task-app",
     live: "https://life-management-tool.onrender.com/",
   },
@@ -52,14 +52,14 @@ const designProjects = [
     title: "Web Application made for SONATRACH",
     description:
       "A Centralized management web application for tracking and evaluating training programs.",
-    image: "sonatrachApp.png",
+    image: "/assets/sonatrachApp.png",
     figma: "https://figma.com/file/yourdesignsystem",
   },
   {
     title: "Mobile App for the private university IBN ROCHD SUP",
     description:
       "Complete UX case study for the mobile application created for Ibn Rochd Higher Institute of Science and Technology.",
-    image: "ibnRochdApp.png",
+    image: "/assets/ibnRochdApp.png",
     figma: "https://figma.com/file/yourfinanceapp",
   },
 ];
