@@ -17,6 +17,7 @@ import {
 import pfp from "./assets/pfp.jpg";
 import sonatrachApp from "./assets/sonatrachApp.png";
 import ITClinic from "./assets/ITClinic.png";
+import itcTalks4 from "./assets/itcTalks4.png";
 import LMT from "./assets/LMT.png";
 import ibnRochdApp from "./assets/ibnRochdApp.png";
 
@@ -29,26 +30,25 @@ const webProjects = [
     // github: "https://github.com/yourusername/ecommerce",
   },
   {
+    title: "ITC-Talks 4 Website",
+    description:
+      "An event website made for the scientific club ITCommunity for their next event ITC-Talks 4 to present the details of the event and made the registration process easy. it is my final work in a mini hackathon named the Web-UIUX Challenge (2023) organized by the scientific club ITCommunity.",
+    image: itcTalks4,
+    github: "https://github.com/rayanMELZI/ITC-Web_dev-UI-UX-Challenge",
+  },
+  {
     title: "ITClinic Hospital Website",
     description:
       "A modern website for the imahinary ITClinic hostipal to show its services and made it easy for patinets to contact them. it is my final work in a hackathon named ITChallenge (2022 version) organized by the scientific club ITCommunity.",
     image: ITClinic,
-    github: "https://github.com/yourusername/task-app",
-  },
-  {
-    title: "ITC-Talks 5 Website",
-    description:
-      "An event website made for the scientific club ITCommunity for their next event ITC-Talks 4 to present the details of the event and made the registration process easy. it is my final work in a mini hackathon named the Web-UIUX Challenge (2023) organized by the scientific club ITCommunity.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-    github: "https://github.com/yourusername/task-app",
+    github: "https://github.com/rayanMELZI/ITClinic",
   },
   {
     title: "Life Managment Tool (unfinished)",
     description:
       "Modern task management application with real-time updates and intuitive simple UI. it uses the eisenhower matrix principal and it can be separated in diffrent life domains. this application is created for personal use and for learning purposes",
     image: LMT,
-    github: "https://github.com/yourusername/task-app",
+    github: "https://github.com/rayanMELZI/Life-Management-Tool-Full-App",
     live: "https://life-management-tool.onrender.com/",
   },
 ];
