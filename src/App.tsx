@@ -14,19 +14,25 @@ import {
   Layers,
 } from "lucide-react";
 
+import pfp from "./assets/pfp.jpg";
+import sonatrachApp from "./assets/sonatrachApp.png";
+import ITClinic from "./assets/ITClinic.png";
+import LMT from "./assets/LMT.png";
+import ibnRochdApp from "./assets/ibnRochdApp.png";
+
 const webProjects = [
   {
     title: "Web Application made for SONATRACH",
     description:
       "A Centralized management web application for tracking and evaluating training programs.",
-    image: "./assets/sonatrachApp.png",
+    image: sonatrachApp,
     // github: "https://github.com/yourusername/ecommerce",
   },
   {
     title: "ITClinic Hospital Website",
     description:
       "A modern website for the imahinary ITClinic hostipal to show its services and made it easy for patinets to contact them. it is my final work in a hackathon named ITChallenge (2022 version) organized by the scientific club ITCommunity.",
-    image: "./assets/ITClinic.png",
+    image: ITClinic,
     github: "https://github.com/yourusername/task-app",
   },
   {
@@ -41,7 +47,7 @@ const webProjects = [
     title: "Life Managment Tool (unfinished)",
     description:
       "Modern task management application with real-time updates and intuitive simple UI. it uses the eisenhower matrix principal and it can be separated in diffrent life domains. this application is created for personal use and for learning purposes",
-    image: "./assets/LMT.png",
+    image: LMT,
     github: "https://github.com/yourusername/task-app",
     live: "https://life-management-tool.onrender.com/",
   },
@@ -52,14 +58,14 @@ const designProjects = [
     title: "Web Application made for SONATRACH",
     description:
       "A Centralized management web application for tracking and evaluating training programs.",
-    image: "./assets/sonatrachApp.png",
+    image: sonatrachApp,
     figma: "https://figma.com/file/yourdesignsystem",
   },
   {
     title: "Mobile App for the private university IBN ROCHD SUP",
     description:
       "Complete UX case study for the mobile application created for Ibn Rochd Higher Institute of Science and Technology.",
-    image: "./assets/ibnRochdApp.png",
+    image: ibnRochdApp,
     figma: "https://figma.com/file/yourfinanceapp",
   },
 ];
@@ -201,7 +207,7 @@ function App() {
               className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl"
             >
               <img
-                src="/pfp.jpg"
+                src={pfp}
                 alt="Rayane MELZI"
                 className="w-full h-full object-cover object-top"
               />
