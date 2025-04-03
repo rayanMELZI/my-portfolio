@@ -90,16 +90,16 @@ function App() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               <a
+                href="#"
+                className="text-zinc-600 hover:text-indigo-600 transition-colors"
+              >
+                About
+              </a>
+              <a
                 href="#work"
                 className="text-zinc-600 hover:text-indigo-600 transition-colors"
               >
                 Work
-              </a>
-              <a
-                href="#about"
-                className="text-zinc-600 hover:text-indigo-600 transition-colors"
-              >
-                About
               </a>
               <a
                 href="#contact"
