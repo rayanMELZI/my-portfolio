@@ -16,22 +16,35 @@ import {
 
 const webProjects = [
   {
-    title: "E-commerce Platform",
+    title: "Web Application made for SONATRACH",
     description:
-      "Full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include real-time inventory, user authentication, and responsive design.",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
-    github: "https://github.com/yourusername/ecommerce",
-    live: "https://ecommerce-demo.com",
+      "A Centralized management web application for tracking and evaluating training programs.",
+    image: "public/sonatrachApp.png",
+    // github: "https://github.com/yourusername/ecommerce",
   },
   {
-    title: "Task Management App",
+    title: "ITClinic Hospital Website",
     description:
-      "Modern task management application with real-time updates, team collaboration features, and intuitive UI.",
+      "A modern website for the imahinary ITClinic hostipal to show its services and made it easy for patinets to contact them. it is my final work in a hackathon named ITChallenge (2022 version) organized by the scientific club ITCommunity.",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
     github: "https://github.com/yourusername/task-app",
-    live: "https://task-app-demo.com",
+  },
+  {
+    title: "ITC-Talks 5 Website",
+    description:
+      "An event website made for the scientific club ITCommunity for their next event ITC-Talks 4 to present the details of the event and made the registration process easy. it is my final work in a mini hackathon named the Web-UIUX Challenge (2023) organized by the scientific club ITCommunity.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    github: "https://github.com/yourusername/task-app",
+  },
+  {
+    title: "Life Managment Tool (unfinished)",
+    description:
+      "Modern task management application with real-time updates and intuitive simple UI. it uses the eisenhower matrix principal and it can be separated in diffrent life domains. this application is created for personal use and for learning purposes",
+    image: "public/LMT.png",
+    github: "https://github.com/yourusername/task-app",
+    live: "https://life-management-tool.onrender.com/",
   },
 ];
 
