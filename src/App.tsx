@@ -26,8 +26,7 @@ const webProjects = [
     title: "ITClinic Hospital Website",
     description:
       "A modern website for the imahinary ITClinic hostipal to show its services and made it easy for patinets to contact them. it is my final work in a hackathon named ITChallenge (2022 version) organized by the scientific club ITCommunity.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "public/ITClinic.png",
     github: "https://github.com/yourusername/task-app",
   },
   {
