@@ -1,11 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from 'tailwindcss'
-const autoprefixer = require('autoprefixer')
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "tailwindcss";
+const autoprefixer = require("autoprefixer");
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/portfolio",
   // build: {
   //   rollupOptions: {
   //     input: '/public/index.html'
@@ -14,15 +15,12 @@ export default defineConfig({
   publicDir: false,
   resolve: {
     alias: {
-      '@': '/src/'
-    }
+      "@": "/src/",
+    },
   },
   css: {
     postcss: {
-      plugins: [
-        autoprefixer,
-        tailwindcss
-      ]
-    }
-  }
-})
+      plugins: [autoprefixer, tailwindcss],
+    },
+  },
+});

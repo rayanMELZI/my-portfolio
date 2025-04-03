@@ -37,17 +37,16 @@ const webProjects = [
 
 const designProjects = [
   {
-    title: "Enterprise Design System",
+    title: "Web Application made for SONATRACH",
     description:
-      "Comprehensive design system for enterprise applications. Including components, patterns, and documentation.",
-    image:
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      "A Centralized management web application for tracking and evaluating training programs.",
+    image: "public/sonatrachApp.png",
     figma: "https://figma.com/file/yourdesignsystem",
   },
   {
     title: "Mobile App for the private university IBN ROCHD SUP",
     description:
-      "Complete UX case study for a financial management application, including user research, wireframes, and final UI design.",
+      "Complete UX case study for the mobile application created for Ibn Rochd Higher Institute of Science and Technology.",
     image: "public/ibnRochdApp.png",
     figma: "https://figma.com/file/yourfinanceapp",
   },
