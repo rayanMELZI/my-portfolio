@@ -59,14 +59,14 @@ const designProjects = [
     description:
       "A Centralized management web application for tracking and evaluating training programs.",
     image: sonatrachApp,
-    figma: "https://figma.com/file/yourdesignsystem",
+    figma: "https://www.figma.com/community/file/1489789454007096652",
   },
   {
     title: "Ibn Rochd University Mobile App",
     description:
       "A complete UX case study for a private university’s mobile platform, focusing on enhancing student engagement and usability.",
     image: ibnRochdApp,
-    figma: "https://figma.com/file/yourfinanceapp",
+    figma: "https://www.figma.com/community/file/1489784573217346890",
   },
 ];
 
@@ -181,14 +181,14 @@ function App() {
               >
                 <Github size={24} />
               </a>
-              {/* <a
+              <a
                 href="https://www.figma.com/@rayan7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-purple-600 hover:text-purple-800 transition-colors"
               >
                 <Figma size={24} />
-              </a> */}
+              </a>
               <a
                 href="https://www.linkedin.com/in/rayane-melzi-831945268/"
                 target="_blank"
