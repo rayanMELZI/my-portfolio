@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Figma, Layers } from "lucide-react";
+import ShowMoreBtn from "./ShowMoreBtn";
 
 import sonatrachApp from "../assets/sonatrachApp.png";
 import ibnRochdApp from "../assets/ibnRochdApp.png";
@@ -64,6 +65,8 @@ function UXProjects() {
             </div>
           </motion.div>
         ))}
+
+        <ShowMoreBtn topic="ux" />
       </div>
     </div>
   );

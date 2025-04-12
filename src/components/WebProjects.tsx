@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink, Globe } from "lucide-react";
+import ShowMoreBtn from "./ShowMoreBtn";
 
 import sonatrachApp from "../assets/sonatrachApp.png";
 import ITClinic from "../assets/ITClinic.png";
@@ -90,6 +91,8 @@ function WebProjects() {
             </div>
           </motion.div>
         ))}
+
+        <ShowMoreBtn topic="web" />
       </div>
     </div>
   );

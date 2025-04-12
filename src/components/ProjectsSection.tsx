@@ -1,6 +1,7 @@
 import React from "react";
 import WebProjects from "./WebProjects";
 import UXProjects from "./UXProjects";
+import ShowMoreBtn from "./ShowMoreBtn";
 
 function ProjectsSection() {
   return (
