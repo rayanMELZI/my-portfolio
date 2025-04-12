@@ -10,22 +10,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="min-h-screen bg-zinc-50">
-      {/* Navigation */}
       <Navbar />
-
-      {/* Hero Section */}
       <HeroSection />
-
-      {/* Skills Section */}
       <SkillsSection />
-
-      {/* Projects Section */}
       <ProjectsSection />
-
-      {/* Contact Section */}
       <Contact />
-
-      {/* Footer */}
       <Footer />
     </div>
   );
