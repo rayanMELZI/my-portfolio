@@ -40,7 +40,7 @@ function WebProjects() {
   ];
 
   return (
-    <div className="mb-20">
+    <div id="web" className="mb-20">
       <div className="flex items-center gap-3 mb-8">
         <Globe className="w-8 h-8 text-indigo-500" />
         <h2 className="text-3xl font-bold text-zinc-900">Web Development</h2>

@@ -53,6 +53,7 @@ function HeroSection() {
             </a>
           </div>
         </div>
+
         <div className="md:w-1/2 flex justify-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}

@@ -25,7 +25,7 @@ function UXProjects() {
 
   return (
     <div>
-      <div className="flex items-center gap-3 mb-8">
+      <div id="ux" className="flex items-center gap-3 mb-8">
         <Layers className="w-8 h-8 text-pink-500" />
         <h2 className="text-3xl font-bold text-zinc-900">UX Design</h2>
       </div>
